@@ -1,0 +1,8 @@
+ボタン操作が分かりにくいので、簡単な例
+
+条件１：足し算
+		1回目に + 押すと、ResultValue に inputValue を代入
+		2回目以降に + 押すと、ResultValue = ResultValue + inputValue
+		1回目に + 押した後で Enter で、ResultValue = ResultValue + inputValue
+		→ inputValue を操作できるのは、数字ボタンのみにする
+		→ inputValue には、is_showing_result は false
